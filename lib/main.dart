@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
+import 'package:quiz_app/screens/MyPageView.dart';
 import 'package:quiz_app/screens/welcome/welcome_screen.dart';
 
 void main() {
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
       home: WelcomeScreen(),
+      //home: MyPageView(),
     );
   }
 }
